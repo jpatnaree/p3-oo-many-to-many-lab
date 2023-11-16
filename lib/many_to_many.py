@@ -92,5 +92,5 @@ class Contract:
         
         c = [c for c in Contract.all if c.date == date]
         
-        return sorted( c , key = lambda contract: contract.date)
+        return sorted(c, key = lambda contract: contract.date)
     
